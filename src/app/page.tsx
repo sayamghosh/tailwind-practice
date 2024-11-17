@@ -6,7 +6,7 @@ function Page() {
     <div className="main w-full h-screen">
       <Navbar />
       
-      <div className="info max-w-screen-xl mx-auto w-full h-full flex flex-col items-center mt-28">
+      <div className="info max-w-screen-xl mx-auto w-full flex flex-col items-center mt-28">
         <div className="image w-32 h-32 bg-sky-300 rounded-full overflow-hidden">
           <img
             className="w-full h-full object-cover"
