@@ -1,29 +1,11 @@
 import React from "react";
-import { IoMenuSharp } from "react-icons/io5";
+import Navbar from "./components/navbar";
 
 function page() {
   return (
     <div className="main w-full h-screen">
-      <div className="navbar max-w-screen-xl bg-slate-300 md:bg-white mx-auto px-6 py-3 flex justify-between items-center">
-        <h3 className="font-bold text-md">Portfolio</h3>
-        <div className="links gap-4 hidden md:flex">
-          <a className="text-md  font-semibold" href="">
-            Works
-          </a>
-          <a className="text-md  opacity-60 font-semibold" href="">
-            Contact
-          </a>
-          <a className="text-md  opacity-60 font-semibold" href="">
-            Services
-          </a>
-          <a className="text-md  opacity-60 font-semibold" href="">
-            About
-          </a>
-        </div>
-        <div className="menu block md:hidden">
-          <IoMenuSharp />
-        </div>
-      </div>
+      <Navbar />
+      
       <div className="info max-w-screen-xl mx-auto w-full h-full flex flex-col items-center mt-28">
         <div className="image w-32 h-32 bg-sky-300 rounded-full overflow-hidden">
           <img
